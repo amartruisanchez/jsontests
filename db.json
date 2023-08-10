@@ -1,11 +1,30 @@
 {
-  "messages": [{"messageDomain":"cadastral",
+  "messages": [
+    {"messageDomain":"cadastral",
     "messageCode":"ID_PM0002",
     "type":"info",
     "summary":"ID_PM0002 - Success",
     "languages":[{"code":"pt-BR","message":"Operação realizada com sucesso."},
       {"code":"en-US","message":"Operation performed successfully"},
-      {"code":"es-ES","message":"Operacion realizada con exito."}]}],
+      {"code":"es-ES","message":"Operacion realizada con exito."}]},
+  ,
+  {
+  "messageCode": "ID_PM0004",
+  "messageDomain": "cadastral",
+  "summary": "ID_PM0004 - Error registering/updating registration",
+  "type": "error",
+  "languages":[
+    {"code": "pt-BR",
+  "message": "Operacao nao realizada, dados inconsistentes."},
+    {"code": "en-US",
+  "message": "Operation not performed, inconsistent data."},
+    {"code": "es-ES",
+  "message": "Operacion no realizada, datos inconsistentes."},
+    {"code": "es-CL",
+  "message": "Operacion no realizada, datos inconsistentes."}
+    ]
+  }
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
