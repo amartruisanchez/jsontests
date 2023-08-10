@@ -7,7 +7,7 @@
     "languages":[{"code":"pt-BR","message":"Operação realizada com sucesso."},
       {"code":"en-US","message":"Operation performed successfully"},
       {"code":"es-ES","message":"Operacion realizada con exito."}]},
-  ,
+  
   {
   "messageCode": "ID_PM0004",
   "messageDomain": "cadastral",
